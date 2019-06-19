@@ -1,0 +1,983 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"messa",
+				"$messageBody〔variable〕"
+			],
+			[
+				"reque",
+				"$request〔variable〕"
+			],
+			[
+				"req",
+				"$request〔variable〕"
+			],
+			[
+				"json",
+				"json_decode〔function〕"
+			],
+			[
+				"consum",
+				"consumer"
+			],
+			[
+				"vh",
+				"$vhost〔variable〕"
+			],
+			[
+				"fecha",
+				"fecha"
+			],
+			[
+				"food",
+				"$foodFormato〔variable〕"
+			],
+			[
+				"foo",
+				"foodFormato"
+			],
+			[
+				"cantid",
+				"cantidadTotal"
+			],
+			[
+				"retu",
+				"return〔keyword〕"
+			],
+			[
+				"firs",
+				"firstOrFail"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"apirest",
+				"apirestful"
+			],
+			[
+				"arg",
+				"argc"
+			],
+			[
+				"defa",
+				"default_args"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"f",
+				"fObjetivo"
+			],
+			[
+				"ar",
+				"arcoSS2"
+			],
+			[
+				"c",
+				"contador"
+			],
+			[
+				"tamano",
+				"tamanoColumna1"
+			],
+			[
+				"co",
+				"contador"
+			],
+			[
+				"tam",
+				"tamanoColumna2"
+			],
+			[
+				"strings",
+				"stringstream"
+			],
+			[
+				"a",
+				"arcoSS"
+			],
+			[
+				"str",
+				"strAux"
+			],
+			[
+				"ca",
+				"cantR"
+			],
+			[
+				"con",
+				"contadorIteraciones"
+			],
+			[
+				"to",
+				"to_string"
+			],
+			[
+				"ta",
+				"tamañoSegundaColumna"
+			],
+			[
+				"feva",
+				"feval"
+			],
+			[
+				"fe",
+				"feval"
+			],
+			[
+				"ou",
+				"outputArchivo"
+			],
+			[
+				"can",
+				"cantR"
+			],
+			[
+				"cap",
+				"capaXRefOriginal"
+			],
+			[
+				"ran",
+				"randNum"
+			],
+			[
+				"ra",
+				"randNumj"
+			],
+			[
+				"per",
+				"personasTotalPE"
+			],
+			[
+				"r",
+				"randNumi"
+			],
+			[
+				"s",
+				"stop"
+			],
+			[
+				"capa",
+				"capaXRef"
+			],
+			[
+				"arre",
+				"arreglo"
+			],
+			[
+				"arregl",
+				"arreglo"
+			],
+			[
+				"contad",
+				"contador"
+			],
+			[
+				"pers",
+				"personasXPE"
+			],
+			[
+				"fo",
+				"for\tFor Loop"
+			],
+			[
+				"p",
+				"personasXPE"
+			],
+			[
+				"arreglo",
+				"arregloRetorno"
+			],
+			[
+				"viaj",
+				"viajes"
+			],
+			[
+				"Iter",
+				"iteraciones"
+			],
+			[
+				"cr",
+				"criterioOptimoLocal1"
+			],
+			[
+				"cantida",
+				"cantidadShift"
+			],
+			[
+				"aux",
+				"auxConta2"
+			],
+			[
+				"au",
+				"auxConta2"
+			],
+			[
+				"contado",
+				"contadorCoincidencias"
+			],
+			[
+				"fEv",
+				"fEvalMin"
+			],
+			[
+				"o",
+				"origen"
+			],
+			[
+				"spl",
+				"spliter2"
+			],
+			[
+				"de",
+				"destino"
+			],
+			[
+				"t",
+				"tiempo"
+			],
+			[
+				"dis",
+				"distPEconR"
+			],
+			[
+				"di",
+				"distEconPE"
+			],
+			[
+				"fun",
+				"funcionEvaluacion_unBus"
+			],
+			[
+				"fE",
+				"fEvalMin"
+			],
+			[
+				"Ru",
+				"RutaMasLarga"
+			],
+			[
+				"arr",
+				"arregloAuxiliar"
+			],
+			[
+				"Arreg",
+				"arregloAuxiliar"
+			],
+			[
+				"contador",
+				"contadorAuxiliar"
+			],
+			[
+				"ruta",
+				"rutaMasLarga"
+			],
+			[
+				"fu",
+				"funcionEvaluacion_unBus"
+			],
+			[
+				"fEva",
+				"fEval"
+			],
+			[
+				"g",
+				"GuardarMejorPlan"
+			],
+			[
+				"mejo",
+				"mejorPlan"
+			],
+			[
+				"nue",
+				"nuevoPlan"
+			],
+			[
+				"nuevo",
+				"nuevoPlan"
+			],
+			[
+				"conta",
+				"contAuxiliar"
+			],
+			[
+				"ne",
+				"new"
+			],
+			[
+				"G",
+				"GuardarMejorPlan"
+			],
+			[
+				"me",
+				"mejorPlan"
+			],
+			[
+				"func",
+				"funcionEvaluacion"
+			],
+			[
+				"nu",
+				"numBusMaximo"
+			],
+			[
+				"Arr",
+				"arregloRetorno"
+			],
+			[
+				"vi",
+				"viajeNuevo"
+			],
+			[
+				"posi",
+				"posicion"
+			],
+			[
+				"cant",
+				"cantViajes"
+			],
+			[
+				"tri",
+				"trip"
+			],
+			[
+				"mo",
+				"MostrarPlanificacionActual"
+			],
+			[
+				"stri",
+				"stringstream"
+			],
+			[
+				"ru",
+				"rutaMasLarga"
+			],
+			[
+				"rut",
+				"rutaMasLarga"
+			],
+			[
+				"es",
+				"estacion"
+			],
+			[
+				"n",
+				"nuevo_trip"
+			],
+			[
+				"posici",
+				"posicionDestino"
+			],
+			[
+				"pos",
+				"posicionAnterior"
+			],
+			[
+				"posicion",
+				"posicionAnterior"
+			],
+			[
+				"Pos",
+				"posActual"
+			],
+			[
+				"arc",
+				"arcoSS"
+			],
+			[
+				"v",
+				"vector\tstd::vector"
+			],
+			[
+				"ss",
+				"stringstream"
+			],
+			[
+				"nuev",
+				"nuevo_trip"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"val",
+				"valor"
+			],
+			[
+				"pl",
+				"plan"
+			],
+			[
+				"m",
+				"max"
+			],
+			[
+				"po",
+				"posDestino"
+			],
+			[
+				"dio",
+				"distEconPE"
+			],
+			[
+				"sp",
+				"spliter"
+			],
+			[
+				"pe",
+				"personasTotalPE"
+			],
+			[
+				"se",
+				"segundo"
+			],
+			[
+				"pee",
+				"personasTotalPE"
+			],
+			[
+				"O",
+				"tripOriginal"
+			],
+			[
+				"tr",
+				"trip"
+			],
+			[
+				"trip",
+				"tripOriginal"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"sr",
+				"string"
+			],
+			[
+				"posA",
+				"posAnterior"
+			],
+			[
+				"perso",
+				"personasTotalPE"
+			],
+			[
+				"d",
+				"disminuirDemanda"
+			],
+			[
+				"cont",
+				"conta1"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"min",
+				"min1"
+			],
+			[
+				"ac",
+				"arcIni"
+			],
+			[
+				"in",
+				"int"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"e",
+				"endl"
+			],
+			[
+				"i",
+				"if\tIf Condition"
+			],
+			[
+				"tipo",
+				"tipo_derecho"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "routes/api.php",
+			"settings":
+			{
+				"buffer_size": 1097,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Food.php",
+			"settings":
+			{
+				"buffer_size": 246,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2019_06_10_192154_create_foods_table.php",
+			"settings":
+			{
+				"buffer_size": 672,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 269.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 192.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Proyecto Feria/api-aviacage2",
+		"/D/Proyecto Feria/api-aviacage2/app",
+		"/D/Proyecto Feria/api-aviacage2/app/Jobs",
+		"/D/Proyecto Feria/api-aviacage2/config",
+		"/D/Proyecto Feria/api-aviacage2/database",
+		"/D/Proyecto Feria/api-aviacage2/database/factories",
+		"/D/Proyecto Feria/api-aviacage2/database/migrations",
+		"/D/Proyecto Feria/api-aviacage2/routes",
+		"/D/Proyecto Feria/api-aviacage2/src",
+		"/D/Proyecto Feria/api-aviacage2/tests"
+	],
+	"file_history":
+	[
+		"/D/Proyecto Feria/api-aviacage2/src/consumer.php",
+		"/D/Proyecto Feria/api-aviacage2/composer.json",
+		"/D/Proyecto Feria/api-aviacage2/app/Http/Controllers/Food/FoodController.php",
+		"/D/Proyecto Feria/api-aviacage2/app/Jobs/FoodConsumerQueue.php",
+		"/D/Proyecto Feria/api-aviacage2/database/migrations/2019_06_10_192154_create_foods_table.php",
+		"/D/Proyecto Feria/api-aviacage2/database/seeds/DatabaseSeeder.php",
+		"/D/Proyecto Feria/api-aviacage2/.env",
+		"/D/Proyecto Feria/api-aviacage2/config/queue.php",
+		"/D/Proyecto Feria/api-aviacage2/database/factories/FoodFactory.php",
+		"/D/Proyecto Feria/api-aviacage2/app/Traits/ApiResponser.php",
+		"/D/Proyecto Feria/api-aviacage2/app/Http/Controllers/Controller.php",
+		"/D/Proyecto Feria/api-aviacage2/app/Http/Controllers/ApiController.php",
+		"/D/Proyecto Feria/api-aviacage2/app/Providers/RouteServiceProvider.php",
+		"/D/Proyecto Feria/api-aviacage2/app/Food.php",
+		"/D/Proyecto Feria/APITest/config/app.php",
+		"/D/Proyecto Feria/APITest/composer.json",
+		"/D/Proyecto Feria/APITest/server.php",
+		"/D/Proyecto Feria/APITest/src/consumer.php",
+		"/D/Proyecto Feria/APITest/src/publisher.php",
+		"/D/Proyecto Feria/APITest/app/Http/Controllers/Food/FoodController.php",
+		"/D/Proyecto Feria/APITest/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php",
+		"/D/Proyecto Feria/APITest/app/Http/Kernel.php",
+		"/D/Proyecto Feria/APITest/public/index.php",
+		"/D/Proyecto Feria/APITest/routes/api.php",
+		"/D/Proyecto Feria/APITest/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php",
+		"/D/Proyecto Feria/APITest/database/seeds/DatabaseSeeder.php",
+		"/D/Proyecto Feria/APITest/.env",
+		"/D/Proyecto Feria/APITest/app/Http/Middleware/ModifyHeadersMiddleware.php",
+		"/D/Proyecto Feria/aviacage-api-laravel/package.json",
+		"/D/Proyecto Feria/APITest/config/l5-swagger.php",
+		"/D/Proyecto Feria/APITest/vendor/darkaonline/l5-swagger/src/L5SwaggerServiceProvider.php",
+		"/D/Proyecto Feria/APITest/app/Providers/AppServiceProvider.php",
+		"/D/Proyecto Feria/APITest/database/factories/ModelFactory.php",
+		"/D/Proyecto Feria/APITest/Homestead.yaml",
+		"/D/Proyecto Feria/APITest/app/Traits/ApiResponser.php",
+		"/D/Proyecto Feria/APITest/database/migrations/2019_05_18_233509_create_foods_table.php",
+		"/D/Proyecto Feria/APITest/app/Food.php",
+		"/C/Users/WILLY/Documents/GitHub/SSRC-practica/public/plugins/it.js",
+		"/D/Proyecto Feria/APITest/.gitignore",
+		"/D/Proyecto Feria/APITest/.env.example",
+		"/D/Proyecto Feria/APITest/composer.lock",
+		"/D/Proyecto Feria/APITest/config/database.php",
+		"/D/Proyecto Feria/APITest/Procfile",
+		"/D/Proyecto Feria/APITest/package.json",
+		"/D/Proyecto Feria/APITest/app/Http/Controllers/User/UserController.php",
+		"/D/Proyecto Feria/APITest/app/Http/Controllers/ApiController.php",
+		"/D/Proyecto Feria/APITest/app/Http/Controllers/Controller.php",
+		"/D/Proyecto Feria/APITest/app/User.php",
+		"/D/Proyecto Feria/APITest/app/Providers/RouteServiceProvider.php",
+		"/D/Proyecto Feria/APITest/routes/web.php",
+		"/D/Proyecto Feria/APITest/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/Proyecto Feria/APITest/vendor/laravel/framework/src/Illuminate/Support/Facades/Schema.php",
+		"/D/Proyecto Feria/APITest/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
+		"/D/Proyecto Feria/ApiRestful/app/Http/Controllers/User/UserController.php",
+		"/D/Proyecto Feria/ApiRestful/routes/api.php",
+		"/D/Proyecto Feria/ApiRestful/database/factories/ModelFactory.php",
+		"/D/Proyecto Feria/ApiRestful/database/seeds/DatabaseSeeder.php",
+		"/D/Proyecto Feria/ApiRestful/app/User.php",
+		"/D/Proyecto Feria/ApiRestful/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/Proyecto Feria/ApiRestful/routes/web.php",
+		"/D/Proyecto Feria/ApiRestful/app/Providers/AppServiceProvider.php",
+		"/D/Proyecto Feria/ApiRestful/.env.example",
+		"/D/Proyecto Feria/ApiRestful/.env",
+		"/D/Proyecto Feria/ApiRestful/readme2.md",
+		"/D/Proyecto Feria/ApiRestful/readme.md",
+		"/D/Proyecto Feria/ApiRestful/app/Providers/RouteServiceProvider.php",
+		"/D/Proyecto Feria/ApiRestful/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
+		"/C/Users/WILLY/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
+		"/C/Users/WILLY/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/D/Proyecto Feria/ApiRestful/test.txt",
+		"/D/Proyecto Feria/ApiRestful/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php",
+		"/D/Proyecto Feria/ApiRestful/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php",
+		"/D/Proyecto Feria/ApiRestful/ApiRestful.sublime-project",
+		"/D/Proyecto Feria/ApiRestful/vendor/laravel/framework/src/Illuminate/Notifications/HasDatabaseNotifications.php",
+		"/D/Proyecto Feria/ApiRestful/vendor/laravel/framework/src/Illuminate/Notifications/RoutesNotifications.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/Proyecto Feria/ApiRestful/composer.json",
+		"/D/Proyecto Feria/ApiRestful/Homestead.yaml",
+		"/C/APIRestful/Homestead.yaml",
+		"/C/Users/WILLY/AppData/Local/Temp/Rar$DIa0.409/fauxiliares.h",
+		"/C/Users/WILLY/AppData/Local/Temp/Rar$DRa0.854/main.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/Oficial y enviar/fauxiliares.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/Oficial y enviar/main.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/Oficial y enviar/fauxiliares.h",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/Oficial y enviar/bep.sh",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/fauxiliares.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/fauxiliares.h",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/Oficial/main.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/README.html",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/main.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/Makefile",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/pseudooficial/main",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/fauxiliares.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/fauxiliares.h",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/main4.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/functions.h",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/main5.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/main6.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/main.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/main3.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/main2.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/copas de seguridad/main - copia (8).cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/copas de seguridad/main - copia (10).cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/copas de seguridad/main.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/copas de seguridad/main - copia (9).cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/main - copia (5).cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/te2.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/te3.cpp",
+		"/D/weas para el nuevo pc 2/weas de la u/Semetre 2018-2/Inteligencia Artificial/Proyecto/Entrega 2/te.cpp",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django - test/templates/trayectoria/index.html",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/templates/base/header.html",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/templates/formulario/resultado.html",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/templates/trayectoria/resultado.html",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/online.py",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/templates/index.html",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/trayectoria/online.py",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/trayectoria/views.py",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/views.py",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/media/archivo_formulario.csv",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/offline.py",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/templates/trayectoria/index.html",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/templates/formulario/form_file.html",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/online - copia.py",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/urls.py",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/models.py",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/apps.py",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/admin.py",
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/trayectoria/forms.py"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "routes/api.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								910,
+								910
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.45.region_keys":
+							[
+							],
+							"SL.98.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 25.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Food.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"SL.23.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "database/migrations/2019_06_10_192154_create_foods_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								672,
+								672
+							]
+						],
+						"settings":
+						{
+							"SL.29.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "api-aviacage2.sublime-project",
+	"replace":
+	{
+		"height": 75.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 464.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
