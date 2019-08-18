@@ -1,6 +1,7 @@
 <?php
 
 use App\Food;
+use App\Routine;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,7 +14,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         Food::truncate();
-        $cantidadFood = 300;
+        $cantidadFood = 100;
         factory(Food::class, $cantidadFood)->create();
+
+        Routine::truncate();
+        $cantidadRoutine = 10;
+        factory(Routine::class, $cantidadRoutine)->create();
+
     }
 }

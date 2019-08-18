@@ -520,30 +520,30 @@
 	"buffers":
 	[
 		{
-			"file": "routes/api.php",
+			"file": "composer.json",
 			"settings":
 			{
-				"buffer_size": 1097,
+				"buffer_size": 1848,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Food.php",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 246,
+				"buffer_size": 146,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "database/migrations/2019_06_10_192154_create_foods_table.php",
+			"file": "Procfile",
 			"settings":
 			{
-				"buffer_size": 672,
+				"buffer_size": 42,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -608,24 +608,17 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Proyecto Feria/api-aviacage2",
-		"/D/Proyecto Feria/api-aviacage2/app",
-		"/D/Proyecto Feria/api-aviacage2/app/Jobs",
-		"/D/Proyecto Feria/api-aviacage2/config",
-		"/D/Proyecto Feria/api-aviacage2/database",
-		"/D/Proyecto Feria/api-aviacage2/database/factories",
-		"/D/Proyecto Feria/api-aviacage2/database/migrations",
-		"/D/Proyecto Feria/api-aviacage2/routes",
-		"/D/Proyecto Feria/api-aviacage2/src",
-		"/D/Proyecto Feria/api-aviacage2/tests"
+		"/D/Proyecto Feria/api-aviacage2"
 	],
 	"file_history":
 	[
+		"/D/Proyecto Feria/api-aviacage2/routes/api.php",
+		"/D/Proyecto Feria/api-aviacage2/app/Food.php",
+		"/D/Proyecto Feria/api-aviacage2/database/migrations/2019_06_10_192154_create_foods_table.php",
 		"/D/Proyecto Feria/api-aviacage2/src/consumer.php",
 		"/D/Proyecto Feria/api-aviacage2/composer.json",
 		"/D/Proyecto Feria/api-aviacage2/app/Http/Controllers/Food/FoodController.php",
 		"/D/Proyecto Feria/api-aviacage2/app/Jobs/FoodConsumerQueue.php",
-		"/D/Proyecto Feria/api-aviacage2/database/migrations/2019_06_10_192154_create_foods_table.php",
 		"/D/Proyecto Feria/api-aviacage2/database/seeds/DatabaseSeeder.php",
 		"/D/Proyecto Feria/api-aviacage2/.env",
 		"/D/Proyecto Feria/api-aviacage2/config/queue.php",
@@ -634,7 +627,6 @@
 		"/D/Proyecto Feria/api-aviacage2/app/Http/Controllers/Controller.php",
 		"/D/Proyecto Feria/api-aviacage2/app/Http/Controllers/ApiController.php",
 		"/D/Proyecto Feria/api-aviacage2/app/Providers/RouteServiceProvider.php",
-		"/D/Proyecto Feria/api-aviacage2/app/Food.php",
 		"/D/Proyecto Feria/APITest/config/app.php",
 		"/D/Proyecto Feria/APITest/composer.json",
 		"/D/Proyecto Feria/APITest/server.php",
@@ -747,8 +739,7 @@
 		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/urls.py",
 		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/models.py",
 		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/apps.py",
-		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/admin.py",
-		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/trayectoria/forms.py"
+		"/C/Users/WILLY/Desktop/ISW/Proyecto/ISW-Django/apps/formulario/admin.py"
 	],
 	"find":
 	{
@@ -788,38 +779,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "routes/api.php",
+					"file": "composer.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1097,
+						"buffer_size": 1848,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								910,
-								910
+								1794,
+								1794
 							]
 						],
 						"settings":
 						{
-							"SL.14.region_keys":
-							[
-							],
-							"SL.45.region_keys":
-							[
-							],
-							"SL.98.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"auto_complete": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Composer).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 25.0,
+						"translation.y": 897.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -827,28 +810,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/Food.php",
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 246,
+						"buffer_size": 146,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95,
-								95
+								64,
+								64
 							]
 						],
 						"settings":
 						{
-							"SL.23.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/Materialize/Langs/Git.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -859,30 +838,25 @@
 				},
 				{
 					"buffer": 2,
-					"file": "database/migrations/2019_06_10_192154_create_foods_table.php",
+					"file": "Procfile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 672,
+						"buffer_size": 42,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								672,
-								672
+								42,
+								42
 							]
 						],
 						"settings":
 						{
-							"SL.29.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"open_with_edit": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/YAML (Procfile).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

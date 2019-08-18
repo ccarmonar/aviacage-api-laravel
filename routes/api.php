@@ -13,6 +13,8 @@ use Illuminate\Http\Request;
 |
 */
 
+
+####FOOD CONTROLLERS####
 Route::resource('food','Food\FoodController');
 
 Route::get('foodCantA', 'Food\FoodController@indexcantidadA')->name('food.indexcantidadA');
@@ -25,3 +27,7 @@ Route::get('food7', 'Food\FoodController@indexfood7')->name('food.indexfood7');
 
 Route::post('foodpublisher', 'Food\FoodController@foodpublisher')->name('food.foodpublisher');
 //Route::get('foodconsumer', 'Food\FoodController@foodconsumer')->name('food.foodconsumer');
+
+
+####ROUTINES CONTROLLERS####
+Route::resource('routine', 'Routine\RoutineController');
