@@ -18,6 +18,7 @@ class CreateRoutinesTable extends Migration
         Schema::create('routine', function (Blueprint $table) {
             $table->increments('id');
             $table->time('hora');
+            $table->integer('cantidad')->unsigned();
             $table->boolean('lunes')->default(0);
             $table->boolean('martes')->default(0);
             $table->boolean('miercoles')->default(0);

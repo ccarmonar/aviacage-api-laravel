@@ -24,4 +24,31 @@ php artisan make:model Routine -m
 ```
 
 
-Base de datos alojada en https://console.clever-cloud.com
+Base de datos hosteada en https://console.clever-cloud.com
+
+
+
+Para guardar en git:
+1) primero actualizar
+```bash
+git pull
+```
+2) adding
+```bash
+git add .
+```
+3) commit
+```bash
+git commit -m "<info>"
+```
+
+
+4) push a git
+```bash
+git push --set-upstream origin master --force
+```
+
+5) push a heroku
+```bash
+git push heroku master
+```

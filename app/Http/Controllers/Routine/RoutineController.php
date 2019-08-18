@@ -55,6 +55,7 @@ class RoutineController extends ApiController
                 array(
                     'id' => $rutina->id,
                     'hora' => $rutina->hora,
+                    'cantidad' => $rutina->cantidad,
                     'dias' => $dias
                 )
             );
@@ -85,6 +86,7 @@ class RoutineController extends ApiController
         //$food = Routine::create($campos);
         $routine = new Routine();
         $routine->hora = $campos['hora'];
+        $routine->cantidad = $campos['cantidad'];
         
         foreach ($campos['dias'] as $dia) {
             if ($dia === "lunes"){
@@ -117,6 +119,7 @@ class RoutineController extends ApiController
         return response()->json([
                 'id' => $routine->id,
                 'hora' => $campos['hora'],
+                'cantidad' => $campos['cantidad'],
                 'dias' => $campos['dias']
             ]
         ,200);
@@ -166,6 +169,7 @@ class RoutineController extends ApiController
         return response()->json([
                 'id' => $rutina->id,
                 'hora' => $rutina->hora,
+                'cantidad' => $rutina->cantidad,
                 'dias' => $dias
                 ]
             ,200);
@@ -238,6 +242,7 @@ class RoutineController extends ApiController
         return response()->json([
                 'id' => $rutina->id,
                 'hora' => $rutina->hora,
+                'cantidad' => $rutina->cantidad,
                 'dias' => $dias
                 ]
             ,200);
