@@ -79,5 +79,8 @@ git push --set-upstream origin master --force
 5) push a heroku
 ```bash
 git push heroku master
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 3053844a528b0bd96949ccc77f28ce6a8218f06a
 ```
