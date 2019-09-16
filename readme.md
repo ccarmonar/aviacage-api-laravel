@@ -31,7 +31,6 @@ Lista de rutas utiles:
 | PUT|PATCH | routine/{routine}      | routine.update      | App\Http\Controllers\Routine\RoutineController@update   | api        |
 | DELETE    | routine/{routine}      | routine.destroy     | App\Http\Controllers\Routine\RoutineController@destroy  | api        |
 | GET|HEAD  | routine/{routine}/edit | routine.edit        | App\Http\Controllers\Routine\RoutineController@edit     | api        |
-|-----------|------------------------|---------------------|---------------------------------------------------------|------------|
 
 
 
