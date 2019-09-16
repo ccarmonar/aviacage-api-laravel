@@ -12,24 +12,19 @@ Lista de rutas utiles:
 |-----------|------------------------|---------------------|---------------------------------------------------------|------------|
 | GET_HEAD  | food                   | food.index          | App\Http\Controllers\Food\FoodController@index          | api        |
 | POST      | food                   | food.store          | App\Http\Controllers\Food\FoodController@store          | api        |
-| GET_HEAD  | food/create            | food.create         | App\Http\Controllers\Food\FoodController@create         | api        |
 | PUT_PATCH | food/{food}            | food.update         | App\Http\Controllers\Food\FoodController@update         | api        |
 | DELETE    | food/{food}            | food.destroy        | App\Http\Controllers\Food\FoodController@destroy        | api        |
 | GET_HEAD  | food/{food}            | food.show           | App\Http\Controllers\Food\FoodController@show           | api        |
-| GET_HEAD  | food/{food}/edit       | food.edit           | App\Http\Controllers\Food\FoodController@edit           | api        |
 | GET_HEAD  | food7                  | food.indexfood7     | App\Http\Controllers\Food\FoodController@indexfood7     | api        |
 | GET_HEAD  | foodCantA              | food.indexcantidadA | App\Http\Controllers\Food\FoodController@indexcantidadA | api        |
 | GET_HEAD  | foodCantD              | food.indexcantidadD | App\Http\Controllers\Food\FoodController@indexcantidadD | api        |
 | GET_HEAD  | foodFechaA             | food.indexfechaA    | App\Http\Controllers\Food\FoodController@indexfechaA    | api        |
 | GET_HEAD  | foodFechaD             | food.indexfechaD    | App\Http\Controllers\Food\FoodController@indexfechaD    | api        |
-| POST      | foodpublisher          | food.foodpublisher  | App\Http\Controllers\Food\FoodController@foodpublisher  | api        |
 | GET_HEAD  | routine                | routine.index       | App\Http\Controllers\Routine\RoutineController@index    | api        |
 | POST      | routine                | routine.store       | App\Http\Controllers\Routine\RoutineController@store    | api        |
-| GET_HEAD  | routine/create         | routine.create      | App\Http\Controllers\Routine\RoutineController@create   | api        |
 | GET_HEAD  | routine/{routine}      | routine.show        | App\Http\Controllers\Routine\RoutineController@show     | api        |
-| PUT_PATCH | routine/{routine}      | routine.update      | App\Http\Controllers\Routine\RoutineController@update   | api        |
 | DELETE    | routine/{routine}      | routine.destroy     | App\Http\Controllers\Routine\RoutineController@destroy  | api        |
-| GET_HEAD  | routine/{routine}/edit | routine.edit        | App\Http\Controllers\Routine\RoutineController@edit     | api        |
+
 
 
 Para realizar migraciones y seeder (reiniciar DB):
