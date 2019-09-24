@@ -1,5 +1,5 @@
 ## Servidor de PHP para el proyecto AviaCage
-
+#### Laravel
 Para ejecutar el server:
 
 ```bash
@@ -46,7 +46,35 @@ php artisan make:model Routine -m
 
 Base de datos hosteada en https://console.clever-cloud.com
 
+#### Task
+Para ejecutar las tareas de forma automatica es necesario crear un cronjob. Esto es en Linux. En windows puede usarse Task Manager pero al menos a mi no me funciono xd.
 
+Para crear cronjob
+```bash
+crontab -e
+```
+Elegir el editor que se prefiera. Gracias a Laravel Scheduler, un solo cronjob puede ejecutar varias Tasks. Basta con agregar:
+```
+* * * * * cd <ubicacion del proyecto> && php artisan schedule:run 1>> /dev/null 2>&1
+```
+
+Para ver cronjobs activos:
+```bash
+crontab -l
+```
+
+Para deshabilitar el cronjob basta con comentarlo al comienzo con un #.
+
+Si desea probar tareas de forma unitaria, en la carpeta del proyecto utilizar:
+```bash
+php artisan schedule:run
+```
+
+
+
+
+
+#### Git
 
 Para guardar en git:
 1) primero actualizar
