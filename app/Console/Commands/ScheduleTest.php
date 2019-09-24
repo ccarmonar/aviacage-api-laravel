@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Schema;
 require 'vendor/autoload.php';
 use Carbon\Carbon;
+use Illuminate\Support\Facades\DB;
 
 class ScheduleTest extends Command
 {
@@ -42,52 +43,81 @@ class ScheduleTest extends Command
      */
     public function handle()
     {
-        /*
-        $food = new Food();
-        $food->cantidad = 666;
-        $food->fecha = "2021-09-19";
-        $food->hora = "00:00:00";
-        $food->save();
-        */
-        $dia = Carbon::now('America/Rosario')->format('l');
-        $hora = Carbon::now('America/Rosario')->format('g:i');
-        if ($hora === '1:37'){
-            $food = new Food();
-            $food->cantidad = 707;
-            $food->fecha = "2021-09-19";
-            $food->hora = "00:00:00";
-            $food->save();
-            echo "Hola";
-        }
-        if ($hora === '1:36'){
-            $food = new Food();
-            $food->cantidad = 706;
-            $food->fecha = "2021-09-19";
-            $food->hora = "00:00:00";
-            $food->save();
-            echo "Hola";
-        } 
-        if ($hora === '1:40'){
-            $food = new Food();
-            $food->cantidad = 710;
-            $food->fecha = "2021-09-19";
-            $food->hora = "00:00:00";
-            $food->save();
-            echo "Hola";
-        }
-        else {
-            $food = new Food();
-            $food->cantidad = 705;
-            $food->fecha = "2021-09-19";
-            $food->hora = "00:00:00";
-            $food->save();
-            echo "Chao";
-        }
-
-
-
         
+        $dia = Carbon::now()->dayOfWeek;
+        $hora = Carbon::now('America/Rosario')->format('H:i:00');
+        $rutinas = DB::table('routine')->get();
 
-        
+
+        foreach ($rutinas as $rutina) {
+            if ($hora === $rutina->hora && $rutina->lunes == 1 && $dia == 1){
+                /*
+                $food = new Food();
+                $food->cantidad = 888;  
+                $food->fecha = "2021-09-19";
+                $food->hora = "00:00:01";
+                $food->save();
+                */
+                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
+
+
+                #echo "Hola";
+
+    
+            }
+            if ($hora === $rutina->hora && $rutina->martes == 1 && $dia == 2){
+                
+
+                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
+
+                #echo "Hola";
+                echo "AAAAAAAAAAAAAAAAAAAAAH";
+            }
+            if ($hora === $rutina->hora && $rutina->miercoles == 1 && $dia == 3){
+                
+
+                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
+
+                #echo "Hola";
+            }
+            if ($hora === $rutina->hora && $rutina->jueves == 1 && $dia == 4){
+                
+
+                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
+
+                #echo "Hola";
+            }
+            if ($hora === $rutina->hora && $rutina->viernes == 1 && $dia == 5){
+                
+
+                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
+
+                #echo "Hola";
+            }
+            if ($hora === $rutina->hora && $rutina->sabado == 1 && $dia == 6){
+                
+
+                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
+
+                #echo "Hola";
+            }
+            if ($hora === $rutina->hora && $rutina->domingo == 1 && $dia == 0){
+                
+
+                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
+
+                #echo "Hola";
+            }
+            else {
+                echo "\n";
+                echo "Nada";
+            }
+            echo "\n";
+            echo $rutina->id;
+
+
+        }
+
+
     }
 }

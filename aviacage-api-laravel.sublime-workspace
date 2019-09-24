@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"da",
+				"dayname"
+			],
+			[
 				"te",
 				"test_jsonSQLInjection"
 			],
@@ -79,6 +83,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Console/Kernel.php",
+			"settings":
+			{
+				"buffer_size": 956,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Console/Commands/ScheduleTest.php",
+			"settings":
+			{
+				"buffer_size": 2057,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 3557,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 932,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -91,6 +130,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			]
 		],
 		"width": 0.0
 	},
@@ -112,10 +155,16 @@
 	},
 	"expanded_folders":
 	[
-		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel"
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/app",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/app/Console",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/app/Console/Commands"
 	],
 	"file_history":
 	[
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/composer.json",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/composer.lock",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/app/Http/Kernel.php",
 		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/.travis.yml",
 		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/flaguesser-ticket.sublime-project",
 		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/Sistema_de_impresion/README.md",
@@ -196,8 +245,125 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Console/Kernel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								658,
+								658
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Console/Commands/ScheduleTest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1209,
+								1209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 728.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3060,
+								3060
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
