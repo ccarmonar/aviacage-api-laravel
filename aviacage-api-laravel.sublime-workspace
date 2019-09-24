@@ -1,0 +1,286 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"test_jsonSQLInjection"
+			],
+			[
+				"c",
+				"client"
+			],
+			[
+				"tes",
+				"test_json"
+			],
+			[
+				"ticket",
+				"ticketRepo"
+			],
+			[
+				"tick",
+				"ticketRoutes"
+			],
+			[
+				"tic",
+				"tickets"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"Ti",
+				"TicketRepository"
+			],
+			[
+				"delte",
+				"deleted"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"ticke",
+				"ticket"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"ne",
+				"newTicket"
+			],
+			[
+				"ti",
+				"tickets"
+			],
+			[
+				"allT",
+				"allTicketsJSON"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"data",
+				"data"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel"
+	],
+	"file_history":
+	[
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/.travis.yml",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/flaguesser-ticket.sublime-project",
+		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/Sistema_de_impresion/README.md",
+		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/SI_backend/ISWbackend/wsgi.py",
+		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/SI_backend/projectisw/admin.py",
+		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/SI_backend/projectisw/views.py",
+		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/SI_backend/projectisw/urls.py",
+		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/SI_backend/projectisw/tests.py",
+		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/SI_backend/projectisw/serializers.py",
+		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/SI_backend/projectisw/models.py",
+		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/SI_backend/ISWbackend/settings.py",
+		"/home/c161905/Documentos/Proyectos ISW/Rodriguez Tapia Villaroel/SI_backend/ISWbackend/urls.py",
+		"/home/c161905/Documentos/Proyectos ISW/isw2019/frontend/target/classes/templates/impresion.html",
+		"/home/c161905/Documentos/Proyectos ISW/isw2019/fingerprint/target/classes/application.properties",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/test/testTicket.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/ticket/ticketRoutes.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/ticket/ticketRepository.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/app.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/README.md",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/ticket/ticketModel.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/travis.sql",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/.gitignore",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/package.json",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/.env",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/Dockerfile",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/test/run.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/docker-compose.yml",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/.dockerignore",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/ticket/ticket.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/version/config.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/version/versionRoutes.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/.sequelizerc",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/src/ticket.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/src/ticketRoutes.js",
+		"/home/c161905/Documentos/TPS/flaguesser/flaguesser-ticket/src/ticketRepository.js",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/.env",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/readme.md",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/resources/views/welcome.blade.php",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/resources/views/dynamic_email_template.blade.php",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/routes/web.php",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/app/Mail/SendMail.php",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/app/Http/Controllers/SendEmailController.php",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/resources/views/emails/contact-message.blade.php",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/storage/logs/laravel.log",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/resources/views/indexv2.blade.php",
+		"/home/c161905/Documentos/Feria de Software/AviaCageWeb/AviaCageWeb-Funcional/public/index.php"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "aviacage-api-laravel.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 455.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
