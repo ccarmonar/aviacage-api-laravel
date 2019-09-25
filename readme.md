@@ -89,14 +89,32 @@ git add .
 ```bash
 git commit -m "<info>"
 ```
-
-
 4) push a git
 ```bash
 git push --set-upstream origin master --force
 ```
-
 5) push a heroku
 ```bash
 git push heroku master
 ```
+
+#### Ejemplos de JSON's para testear:
+
+Ejemplo POST ruta /food:
+```
+{
+	"cantidad" : 111,
+	"fechaFormato": "2019-09-24",
+	"hora": "22:25:00"
+}
+```
+
+Ejemplo POST ruta /routine:
+```
+{
+	"cantidad" : 100,
+	"hora" : "22:21:00",
+	"dias" : ["lunes","martes","miercoles","jueves"]
+}
+```
+

@@ -44,7 +44,7 @@ class ScheduleTest extends Command
     public function handle()
     {
         $client = new \GuzzleHttp\Client();
-        $dia = Carbon::now()->dayOfWeek;
+        $dia = Carbon::now('America/Rosario')->dayOfWeek;
         $hora = Carbon::now('America/Rosario')->format('H:i:00');
         $rutinas = DB::table('routine')->get();
 
@@ -53,32 +53,15 @@ class ScheduleTest extends Command
 
         foreach ($rutinas as $rutina) {
             if ($hora === $rutina->hora && $rutina->lunes == 1 && $dia == 1){
-                /*
-                $food = new Food();
-                $food->cantidad = 888;  
-                $food->fecha = "2021-09-19";
-                $food->hora = "00:00:01";
-                $food->save();
-                */
-                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
-
-
-                #echo "Hola";
 
                 $gramos = $rutina->cantidad;
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
                 echo $response;
-
-    
             }
             if ($hora === $rutina->hora && $rutina->martes == 1 && $dia == 2){
                 
-
-                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
-
-                #echo "Hola";
                 $gramos = $rutina->cantidad;
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
@@ -88,9 +71,6 @@ class ScheduleTest extends Command
             if ($hora === $rutina->hora && $rutina->miercoles == 1 && $dia == 3){
                 
 
-                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
-
-                #echo "Hola";
                 $gramos = $rutina->cantidad;
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
@@ -99,10 +79,6 @@ class ScheduleTest extends Command
             }
             if ($hora === $rutina->hora && $rutina->jueves == 1 && $dia == 4){
                 
-
-                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
-
-                #echo "Hola";
                 $gramos = $rutina->cantidad;
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
@@ -110,11 +86,7 @@ class ScheduleTest extends Command
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->viernes == 1 && $dia == 5){
-                
-
-                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
-
-                #echo "Hola";
+               
                 $gramos = $rutina->cantidad;
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
@@ -124,9 +96,6 @@ class ScheduleTest extends Command
             if ($hora === $rutina->hora && $rutina->sabado == 1 && $dia == 6){
                 
 
-                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
-
-                #echo "Hola";
                 $gramos = $rutina->cantidad;
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
@@ -135,10 +104,6 @@ class ScheduleTest extends Command
             }
             if ($hora === $rutina->hora && $rutina->domingo == 1 && $dia == 0){
                 
-
-                #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
-
-                #echo "Hola";
                 $gramos = $rutina->cantidad;
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);

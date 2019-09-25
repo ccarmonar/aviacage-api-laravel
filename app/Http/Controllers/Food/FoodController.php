@@ -51,7 +51,7 @@ class FoodController extends ApiController
     {
         
         $campos = $request->json()->all();
-        //$food = Food::create($campos);
+
 
         //Lamada a RabbitMQ
         $client = new \GuzzleHttp\Client();
