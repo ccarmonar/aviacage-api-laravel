@@ -43,11 +43,13 @@ class ScheduleTest extends Command
      */
     public function handle()
     {
-        
+        $client = new \GuzzleHttp\Client();
         $dia = Carbon::now()->dayOfWeek;
         $hora = Carbon::now('America/Rosario')->format('H:i:00');
         $rutinas = DB::table('routine')->get();
 
+
+        $url = "https://aviacage-rabbit.herokuapp.com/addcomida/";
 
         foreach ($rutinas as $rutina) {
             if ($hora === $rutina->hora && $rutina->lunes == 1 && $dia == 1){
@@ -63,6 +65,12 @@ class ScheduleTest extends Command
 
                 #echo "Hola";
 
+                $gramos = $rutina->cantidad;
+                $consulta = $url . $gramos;
+                $request = $client->get($consulta);
+                $response = $request->getBody();
+                echo $response;
+
     
             }
             if ($hora === $rutina->hora && $rutina->martes == 1 && $dia == 2){
@@ -71,7 +79,11 @@ class ScheduleTest extends Command
                 #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
 
                 #echo "Hola";
-                echo "AAAAAAAAAAAAAAAAAAAAAH";
+                $gramos = $rutina->cantidad;
+                $consulta = $url . $gramos;
+                $request = $client->get($consulta);
+                $response = $request->getBody();
+                echo $response;
             }
             if ($hora === $rutina->hora && $rutina->miercoles == 1 && $dia == 3){
                 
@@ -79,6 +91,11 @@ class ScheduleTest extends Command
                 #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
 
                 #echo "Hola";
+                $gramos = $rutina->cantidad;
+                $consulta = $url . $gramos;
+                $request = $client->get($consulta);
+                $response = $request->getBody();
+                echo $response;
             }
             if ($hora === $rutina->hora && $rutina->jueves == 1 && $dia == 4){
                 
@@ -86,6 +103,11 @@ class ScheduleTest extends Command
                 #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
 
                 #echo "Hola";
+                $gramos = $rutina->cantidad;
+                $consulta = $url . $gramos;
+                $request = $client->get($consulta);
+                $response = $request->getBody();
+                echo $response;
             }
             if ($hora === $rutina->hora && $rutina->viernes == 1 && $dia == 5){
                 
@@ -93,6 +115,11 @@ class ScheduleTest extends Command
                 #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
 
                 #echo "Hola";
+                $gramos = $rutina->cantidad;
+                $consulta = $url . $gramos;
+                $request = $client->get($consulta);
+                $response = $request->getBody();
+                echo $response;
             }
             if ($hora === $rutina->hora && $rutina->sabado == 1 && $dia == 6){
                 
@@ -100,6 +127,11 @@ class ScheduleTest extends Command
                 #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
 
                 #echo "Hola";
+                $gramos = $rutina->cantidad;
+                $consulta = $url . $gramos;
+                $request = $client->get($consulta);
+                $response = $request->getBody();
+                echo $response;
             }
             if ($hora === $rutina->hora && $rutina->domingo == 1 && $dia == 0){
                 
@@ -107,17 +139,22 @@ class ScheduleTest extends Command
                 #Aqui va el socket o la llamada al rabbit para ejecutar la weaita xd
 
                 #echo "Hola";
+                $gramos = $rutina->cantidad;
+                $consulta = $url . $gramos;
+                $request = $client->get($consulta);
+                $response = $request->getBody();
+                echo $response;
             }
             else {
                 echo "\n";
-                echo "Nada";
+                echo $hora." ".$dia;
+                echo "\n";
             }
-            echo "\n";
-            echo $rutina->id;
 
 
         }
 
+        
 
     }
 }

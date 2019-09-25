@@ -52,6 +52,14 @@ class FoodController extends ApiController
         
         $campos = $request->json()->all();
         //$food = Food::create($campos);
+
+        //Lamada a RabbitMQ
+        $client = new \GuzzleHttp\Client();
+        $url = "https://aviacage-rabbit.herokuapp.com/addcomida/";
+        $gramos = $campos['cantidad'];
+        $consulta = $url . $gramos;
+        $request = $client->get($consulta);
+        
         $food = new Food();
         $food->cantidad = $campos['cantidad'];
         $food->fecha = $campos['fechaFormato'];
