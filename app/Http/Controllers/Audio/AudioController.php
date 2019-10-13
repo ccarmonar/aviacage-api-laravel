@@ -53,9 +53,10 @@ class AudioController extends Controller
      * @param  \App\Audio  $audio
      * @return \Illuminate\Http\Response
      */
-    public function show(Audio $audio)
+    public function show($id)
     {
-        //
+        $audio = DB::table('audio')->where('id',$id)->first();
+        return response()->json($audio,200);
     }
 
     /**
@@ -76,9 +77,22 @@ class AudioController extends Controller
      * @param  \App\Audio  $audio
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Audio $audio)
+    public function update(Request $request, $id)
     {
-        //
+        $audio = Audio::findOrFail($id);
+
+        if ($request->has('nombre')) {
+            $audio->nombre = $request->nombre;
+        }
+        if ($request->has('url')) {
+            $audio->url = $request->url;
+        }
+        if (!$audio->isDirty()) {
+            //return response()->json(['error' => 'Se debe especificar al menos un valor diferente para actualizar', 'code' => 422], 422);
+            return $this->errorResponse('Se debe especificar al menos un valor diferente para actualizar', 422);
+        }
+        $audio->save();
+        return response()->json($audio,200);
     }
 
     /**
@@ -87,8 +101,10 @@ class AudioController extends Controller
      * @param  \App\Audio  $audio
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Audio $audio)
+    public function destroy($id)
     {
-        //
+        $audio = Audio::findOrFail($id);
+        $audio->delete();
+        return response()->json($audio,200);
     }
 }

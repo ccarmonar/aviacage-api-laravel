@@ -26,6 +26,9 @@ Lista de rutas utiles:
 | DELETE    | routine/{routine}      | routine.destroy     | App\Http\Controllers\Routine\RoutineController@destroy  | api        |
 | GET_HEAD  | audio                  | audio.index         | App\Http\Controllers\Audio\AudioController@index        | api        |
 | POST      | audio                  | audio.store         | App\Http\Controllers\Audio\AudioController@store        | api        |
+| PUT_PATCH | audio/{audio}          | audio.update        | App\Http\Controllers\Audio\AudioController@update       | api        |
+| GET_HEAD  | audio/{audio}          | audio.show          | App\Http\Controllers\Audio\AudioController@show         | api        |
+| DELETE    | audio/{audio}          | audio.destroy       | App\Http\Controllers\Audio\AudioController@destroy      | api        |
 
 
 
