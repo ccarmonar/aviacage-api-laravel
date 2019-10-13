@@ -24,6 +24,8 @@ Lista de rutas utiles:
 | POST      | routine                | routine.store       | App\Http\Controllers\Routine\RoutineController@store    | api        |
 | GET_HEAD  | routine/{routine}      | routine.show        | App\Http\Controllers\Routine\RoutineController@show     | api        |
 | DELETE    | routine/{routine}      | routine.destroy     | App\Http\Controllers\Routine\RoutineController@destroy  | api        |
+| GET_HEAD  | audio                  | audio.index         | App\Http\Controllers\Audio\AudioController@index        | api        |
+| POST      | audio                  | audio.store         | App\Http\Controllers\Audio\AudioController@store        | api        |
 
 
 

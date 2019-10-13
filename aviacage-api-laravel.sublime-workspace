@@ -87,7 +87,8 @@
 			"file": "app/Console/Kernel.php",
 			"settings":
 			{
-				"buffer_size": 956,
+				"buffer_size": 868,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -103,7 +104,7 @@
 			"file": "app/Console/Commands/ScheduleTest.php",
 			"settings":
 			{
-				"buffer_size": 4593,
+				"buffer_size": 3617,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -112,7 +113,8 @@
 			"file": "app/Http/Controllers/Food/FoodController.php",
 			"settings":
 			{
-				"buffer_size": 9690,
+				"buffer_size": 9918,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -120,8 +122,16 @@
 			"file": "readme.md",
 			"settings":
 			{
-				"buffer_size": 3557,
+				"buffer_size": 3835,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Routine.php",
+			"settings":
+			{
+				"buffer_size": 344,
 				"line_ending": "Unix"
 			}
 		},
@@ -271,7 +281,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -280,15 +290,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 956,
+						"buffer_size": 868,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								624,
-								624
+								627,
+								627
 							]
 						],
 						"settings":
@@ -328,10 +338,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 277.0,
+						"translation.y": 583.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -340,15 +350,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4593,
+						"buffer_size": 3617,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								888,
-								888
+								1449,
+								1449
 							]
 						],
 						"settings":
@@ -358,27 +368,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 694.0,
+						"translation.y": 625.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
 					"file": "app/Http/Controllers/Food/FoodController.php",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9690,
+						"buffer_size": 9918,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7819,
-								7819
+								930,
+								930
 							]
 						],
 						"settings":
@@ -388,10 +398,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4866.0,
+						"translation.y": 674.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -400,15 +410,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3557,
+						"buffer_size": 3835,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2352,
-								2352
+								3835,
+								3835
 							]
 						],
 						"settings":
@@ -416,7 +426,7 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 882.0,
+						"translation.y": 1952.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -424,6 +434,36 @@
 				},
 				{
 					"buffer": 5,
+					"file": "app/Routine.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": ".env",
 					"semi_transient": false,
 					"settings":
@@ -447,7 +487,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]

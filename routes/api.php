@@ -31,3 +31,6 @@ Route::post('foodpublisher', 'Food\FoodController@foodpublisher')->name('food.fo
 
 ####ROUTINES CONTROLLERS####
 Route::resource('routine', 'Routine\RoutineController');
+
+###AUDIO CONTROLLERS####
+Route::resource('audio', 'Audio\AudioController');
