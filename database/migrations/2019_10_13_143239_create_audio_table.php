@@ -17,6 +17,7 @@ class CreateAudioTable extends Migration
             $table->bigIncrements('id');
             $table->string('nombre');
             $table->longText('url');
+            $table->string('filename');
         });
     }
 
