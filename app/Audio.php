@@ -11,5 +11,6 @@ class Audio extends Model
     protected $fillable = [
         'nombre',
         'url', 
+        'filename',
     ];
 }
