@@ -43,7 +43,7 @@ class AudioController extends Controller
         $audio = new Audio();
         $audio->nombre = $campos['nombre'];
         $audio->url = $campos['url'];
-        $audio->filename =$campos['filename']
+        $audio->filename =$campos['filename'];
         $audio->save();
         return response()->json($audio,200);
     }
