@@ -12,5 +12,6 @@ class Audio extends Model
         'nombre',
         'url', 
         'filename',
+        'urlLocal',
     ];
 }

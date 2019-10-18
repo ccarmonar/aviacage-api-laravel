@@ -43,7 +43,8 @@ class AudioController extends Controller
         $audio = new Audio();
         $audio->nombre = $campos['nombre'];
         $audio->url = $campos['url'];
-        $audio->filename =$campos['filename'];
+        $audio->filename = $campos['filename'];
+        $audio->urlLocal = $campos['urlLocal'];
         $audio->save();
         return response()->json($audio,200);
     }
@@ -90,6 +91,9 @@ class AudioController extends Controller
         }
         if ($request->has('filename')) {
             $audio->filename = $request->filename;
+        }
+        if ($request->has('urlLocal')) {
+            $audio->urlLocal = $request->urlLocal;
         }
         if (!$audio->isDirty()) {
             //return response()->json(['error' => 'Se debe especificar al menos un valor diferente para actualizar', 'code' => 422], 422);
