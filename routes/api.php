@@ -43,6 +43,9 @@ Route::get('water7', 'Water\WaterController@indexwater7')->name('water.indexwate
 ####ROUTINES CONTROLLERS####
 Route::resource('routine', 'Routine\RoutineController');
 
+####WATER ROUTINES CONTROLLERS####
+Route::resource('waterRoutine', 'WaterRoutine\WaterRoutineController');
+
 ###AUDIO CONTROLLERS####
 Route::resource('audio', 'Audio\AudioController');
 
