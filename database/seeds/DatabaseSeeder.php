@@ -2,6 +2,8 @@
 
 use App\Food;
 use App\Routine;
+use App\Water;
+use App\WaterRoutine;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -18,8 +20,17 @@ class DatabaseSeeder extends Seeder
         factory(Food::class, $cantidadFood)->create();
 
         Routine::truncate();
-        $cantidadRoutine = 10;
+        $cantidadRoutine = 5;
         factory(Routine::class, $cantidadRoutine)->create();
+
+        Water::truncate();
+        $cantidadWater = 100;
+        factory(Water::class, $cantidadWater)->create();
+
+        WaterRoutine::truncate();
+        $cantidadWaterRoutine = 5;
+        factory(WaterRoutine::class, $cantidadWaterRoutine)->create();
+
 
     }
 }

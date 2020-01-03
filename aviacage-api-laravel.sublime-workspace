@@ -95,7 +95,7 @@
 			"file": "app/Audio.php",
 			"settings":
 			{
-				"buffer_size": 247,
+				"buffer_size": 267,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -104,7 +104,7 @@
 			"file": "database/migrations/2019_10_13_143239_create_audio_table.php",
 			"settings":
 			{
-				"buffer_size": 670,
+				"buffer_size": 712,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -113,23 +113,7 @@
 			"file": "app/Http/Controllers/Audio/AudioController.php",
 			"settings":
 			{
-				"buffer_size": 2878,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/api.php",
-			"settings":
-			{
-				"buffer_size": 1699,
+				"buffer_size": 3029,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -138,7 +122,7 @@
 			"file": "readme.md",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 4495,
 				"line_ending": "Unix"
 			}
 		},
@@ -146,7 +130,7 @@
 			"file": "app/Http/Controllers/Routine/RoutineController.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 6340,
 				"line_ending": "Unix"
 			}
 		}
@@ -206,6 +190,8 @@
 	],
 	"file_history":
 	[
+		"/home/c161905/Documentos/Computacion Grafica/tarea1.cpp",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/routes/api.php",
 		"/home/c161905/Documentos/TEL-335/nodejs_example/index.js",
 		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/app/Http/Controllers/Food/FoodController.php",
 		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/database/migrations/2019_10_13_143239_create_audio_table.php",
@@ -298,7 +284,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -307,50 +293,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 247,
+						"buffer_size": 267,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								237,
-								237
+								255,
+								255
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "database/migrations/2019_10_13_143239_create_audio_table.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 670,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								496,
-								496
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -360,20 +316,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/Http/Controllers/Audio/AudioController.php",
+					"buffer": 1,
+					"file": "database/migrations/2019_10_13_143239_create_audio_table.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2878,
+						"buffer_size": 712,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1035,
-								1035
+								495,
+								495
 							]
 						],
 						"settings":
@@ -383,7 +339,37 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 206.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/Audio/AudioController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1084
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 458.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -391,66 +377,11 @@
 				},
 				{
 					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "routes/api.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1699,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1276,
-								1276
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 216.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "readme.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 4495,
 						"regions":
 						{
 						},
@@ -469,24 +400,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "app/Http/Controllers/Routine/RoutineController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 6340,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								130,
+								130
 							]
 						],
 						"settings":
@@ -499,7 +430,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
