@@ -7,7 +7,7 @@ php artisan serve
 ```
 
 Lista de rutas utiles:
-
+<sub>
 | Method    |          URI           |        Name         | Action                                                  | Middleware |
 |-----------|------------------------|---------------------|---------------------------------------------------------|------------|
 | GET_HEAD  | food                   | food.index          | App\Http\Controllers\Food\FoodController@index          | api        |
@@ -43,7 +43,7 @@ Lista de rutas utiles:
 | PUT_PATCH | audio/{audio}          | audio.update        | App\Http\Controllers\Audio\AudioController@update       | api        |
 | GET_HEAD  | audio/{audio}          | audio.show          | App\Http\Controllers\Audio\AudioController@show         | api        |
 | DELETE    | audio/{audio}          | audio.destroy       | App\Http\Controllers\Audio\AudioController@destroy      | api        |
-
+</sub>
 
 
 Para realizar migraciones y seeder (reiniciar DB):
