@@ -12,21 +12,11 @@ use App\Http\Controllers\ApiController;
 
 class WaterRoutineController extends ApiController
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
         $rutinas = DB::table('water_routine')->get();
-
-        /*return response()->json([
-            'hora' => $rutina->hora,
-            'dias' => 'CA'
-        ]);*/
-
         $data = array();
+
         foreach ($rutinas as $rutina) {
             $dias = array();
             if($rutina->lunes === 1){
@@ -62,26 +52,9 @@ class WaterRoutineController extends ApiController
         return response()->json($data,200);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         $campos = $request->json()->all();
-        //$food = Routine::create($campos);
         $routine = new WaterRoutine();
         $routine->hora = $campos['hora'];
         $routine->cantidad = $campos['cantidad'];
@@ -110,9 +83,7 @@ class WaterRoutineController extends ApiController
             }
         }
 
-
         $routine->save();
-
 
         return response()->json([
                 'id' => $routine->id,
@@ -121,25 +92,11 @@ class WaterRoutineController extends ApiController
                 'dias' => $campos['dias']
             ]
         ,200);
-
-        #return $this->showOne($routine);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\WaterRoutine  $waterRoutine
-     * @return \Illuminate\Http\Response
-     */
     public function show($id)
     {
         $rutina = DB::table('water_routine')->where('id',$id)->first();
-
-        /*return response()->json([
-            'hora' => $rutina->hora,
-            'dias' => 'CA'
-        ]);*/
-
         $dias = array();
 
         if($rutina->lunes === 1){
@@ -173,44 +130,9 @@ class WaterRoutineController extends ApiController
             ,200);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\WaterRoutine  $waterRoutine
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(WaterRoutine $waterRoutine)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\WaterRoutine  $waterRoutine
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, WaterRoutine $waterRoutine)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\WaterRoutine  $waterRoutine
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
         $rutina = DB::table('water_routine')->where('id',$id)->first();
-
-        /*return response()->json([
-            'hora' => $rutina->hora,
-            'dias' => 'CA'
-        ]);*/
-
         $dias = array();
 
         if($rutina->lunes === 1){

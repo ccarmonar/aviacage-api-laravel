@@ -20,10 +20,24 @@ Lista de rutas utiles:
 | GET_HEAD  | foodCantD              | food.indexcantidadD | App\Http\Controllers\Food\FoodController@indexcantidadD | api        |
 | GET_HEAD  | foodFechaA             | food.indexfechaA    | App\Http\Controllers\Food\FoodController@indexfechaA    | api        |
 | GET_HEAD  | foodFechaD             | food.indexfechaD    | App\Http\Controllers\Food\FoodController@indexfechaD    | api        |
+| GET_HEAD  | water                   | water.index          | App\Http\Controllers\Water\WaterController@index          | api        |
+| POST      | water                   | water.store          | App\Http\Controllers\Water\WaterController@store          | api        |
+| PUT_PATCH | water/{water}            | water.update         | App\Http\Controllers\Water\WaterController@update         | api        |
+| DELETE    | water/{water}            | water.destroy        | App\Http\Controllers\Water\WaterController@destroy        | api        |
+| GET_HEAD  | water/{water}            | water.show           | App\Http\Controllers\Water\WaterController@show           | api        |
+| GET_HEAD  | water7                  | water.indexfood7     | App\Http\Controllers\Water\WaterController@indexfood7     | api        |
+| GET_HEAD  | waterCantA              | water.indexcantidadA | App\Http\Controllers\Water\WaterController@indexcantidadA | api        |
+| GET_HEAD  | waterCantD              | water.indexcantidadD | App\Http\Controllers\Water\WaterController@indexcantidadD | api        |
+| GET_HEAD  | waterFechaA             | water.indexfechaA    | App\Http\Controllers\Water\WaterController@indexfechaA    | api        |
+| GET_HEAD  | waterFechaD             | water.indexfechaD    | App\Http\Controllers\Water\WaterController@indexfechaD    | api        |
 | GET_HEAD  | routine                | routine.index       | App\Http\Controllers\Routine\RoutineController@index    | api        |
 | POST      | routine                | routine.store       | App\Http\Controllers\Routine\RoutineController@store    | api        |
 | GET_HEAD  | routine/{routine}      | routine.show        | App\Http\Controllers\Routine\RoutineController@show     | api        |
 | DELETE    | routine/{routine}      | routine.destroy     | App\Http\Controllers\Routine\RoutineController@destroy  | api        |
+| GET_HEAD  | waterRoutine           | waterRoutine.index       | App\Http\Controllers\WaterRoutine\WaterRoutineController@index    | api        |
+| POST      | waterRoutine           | waterRoutine.store       | App\Http\Controllers\WaterRoutine\WaterRoutineController@store    | api        |
+| GET_HEAD  | waterRoutine/{waterRoutine}      | waterRoutine.show        | App\Http\Controllers\WaterRoutine\WaterRoutineController@show     | api        |
+| DELETE    | waterRoutine/{waterRoutine}      | waterRoutine.destroy     | App\Http\Controllers\WaterRoutine\WaterRoutineController@destroy  | api        |
 | GET_HEAD  | audio                  | audio.index         | App\Http\Controllers\Audio\AudioController@index        | api        |
 | POST      | audio                  | audio.store         | App\Http\Controllers\Audio\AudioController@store        | api        |
 | PUT_PATCH | audio/{audio}          | audio.update        | App\Http\Controllers\Audio\AudioController@update       | api        |
@@ -105,7 +119,7 @@ git push heroku master
 
 #### Ejemplos de JSON's para testear:
 
-Ejemplo POST ruta /food:
+Ejemplo POST para ruta /food o ruta /water:
 ```
 {
 	"cantidad" : 111,
@@ -114,7 +128,7 @@ Ejemplo POST ruta /food:
 }
 ```
 
-Ejemplo POST ruta /routine:
+Ejemplo POST para ruta /routine o ruta /waterRoutine:
 ```
 {
 	"cantidad" : 100,

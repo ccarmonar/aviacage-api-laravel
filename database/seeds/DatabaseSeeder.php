@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         Food::truncate();
-        $cantidadFood = 100;
+        $cantidadFood = 40;
         factory(Food::class, $cantidadFood)->create();
 
         Routine::truncate();
@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
         factory(Routine::class, $cantidadRoutine)->create();
 
         Water::truncate();
-        $cantidadWater = 100;
+        $cantidadWater = 40;
         factory(Water::class, $cantidadWater)->create();
 
         WaterRoutine::truncate();
