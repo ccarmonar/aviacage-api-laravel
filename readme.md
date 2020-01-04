@@ -10,39 +10,39 @@ Lista de rutas utiles:
 
 | Method    |          URI           |        Name         | Action                                                  | Middleware |
 |-----------|------------------------|---------------------|---------------------------------------------------------|------------|
-| <sub>GET_HEAD</sub>  | food                   | food.index          | App\Http\Controllers\Food\FoodController@index          | api        |
-| POST      | food                   | food.store          | App\Http\Controllers\Food\FoodController@store          | api        |
-| PUT_PATCH | food/{food}            | food.update         | App\Http\Controllers\Food\FoodController@update         | api        |
-| DELETE    | food/{food}            | food.destroy        | App\Http\Controllers\Food\FoodController@destroy        | api        |
-| GET_HEAD  | food/{food}            | food.show           | App\Http\Controllers\Food\FoodController@show           | api        |
-| GET_HEAD  | food7                  | food.indexfood7     | App\Http\Controllers\Food\FoodController@indexfood7     | api        |
-| GET_HEAD  | foodCantA              | food.indexcantidadA | App\Http\Controllers\Food\FoodController@indexcantidadA | api        |
-| GET_HEAD  | foodCantD              | food.indexcantidadD | App\Http\Controllers\Food\FoodController@indexcantidadD | api        |
-| GET_HEAD  | foodFechaA             | food.indexfechaA    | App\Http\Controllers\Food\FoodController@indexfechaA    | api        |
-| GET_HEAD  | foodFechaD             | food.indexfechaD    | App\Http\Controllers\Food\FoodController@indexfechaD    | api        |
-| GET_HEAD  | water                   | water.index          | App\Http\Controllers\Water\WaterController@index          | api        |
-| POST      | water                   | water.store          | App\Http\Controllers\Water\WaterController@store          | api        |
-| PUT_PATCH | water/{water}            | water.update         | App\Http\Controllers\Water\WaterController@update         | api        |
-| DELETE    | water/{water}            | water.destroy        | App\Http\Controllers\Water\WaterController@destroy        | api        |
-| GET_HEAD  | water/{water}            | water.show           | App\Http\Controllers\Water\WaterController@show           | api        |
-| GET_HEAD  | water7                  | water.indexfood7     | App\Http\Controllers\Water\WaterController@indexfood7     | api        |
-| GET_HEAD  | waterCantA              | water.indexcantidadA | App\Http\Controllers\Water\WaterController@indexcantidadA | api        |
-| GET_HEAD  | waterCantD              | water.indexcantidadD | App\Http\Controllers\Water\WaterController@indexcantidadD | api        |
-| GET_HEAD  | waterFechaA             | water.indexfechaA    | App\Http\Controllers\Water\WaterController@indexfechaA    | api        |
-| GET_HEAD  | waterFechaD             | water.indexfechaD    | App\Http\Controllers\Water\WaterController@indexfechaD    | api        |
-| GET_HEAD  | routine                | routine.index       | App\Http\Controllers\Routine\RoutineController@index    | api        |
-| POST      | routine                | routine.store       | App\Http\Controllers\Routine\RoutineController@store    | api        |
-| GET_HEAD  | routine/{routine}      | routine.show        | App\Http\Controllers\Routine\RoutineController@show     | api        |
-| DELETE    | routine/{routine}      | routine.destroy     | App\Http\Controllers\Routine\RoutineController@destroy  | api        |
-| GET_HEAD  | waterRoutine           | waterRoutine.index       | App\Http\Controllers\WaterRoutine\WaterRoutineController@index    | api        |
-| POST      | waterRoutine           | waterRoutine.store       | App\Http\Controllers\WaterRoutine\WaterRoutineController@store    | api        |
-| GET_HEAD  | waterRoutine/{waterRoutine}      | waterRoutine.show        | App\Http\Controllers\WaterRoutine\WaterRoutineController@show     | api        |
-| DELETE    | waterRoutine/{waterRoutine}      | waterRoutine.destroy     | App\Http\Controllers\WaterRoutine\WaterRoutineController@destroy  | api        |
-| GET_HEAD  | audio                  | audio.index         | App\Http\Controllers\Audio\AudioController@index        | api        |
-| POST      | audio                  | audio.store         | App\Http\Controllers\Audio\AudioController@store        | api        |
-| PUT_PATCH | audio/{audio}          | audio.update        | App\Http\Controllers\Audio\AudioController@update       | api        |
-| GET_HEAD  | audio/{audio}          | audio.show          | App\Http\Controllers\Audio\AudioController@show         | api        |
-| DELETE    | audio/{audio}          | audio.destroy       | App\Http\Controllers\Audio\AudioController@destroy      | api        |
+| GET_HEAD  | food                   | food.index          | App\Http\Controllers\Food\FoodController@index          | 
+| POST      | food                   | food.store          | App\Http\Controllers\Food\FoodController@store          | 
+| PUT_PATCH | food/{food}            | food.update         | App\Http\Controllers\Food\FoodController@update         | 
+| DELETE    | food/{food}            | food.destroy        | App\Http\Controllers\Food\FoodController@destroy        | 
+| GET_HEAD  | food/{food}            | food.show           | App\Http\Controllers\Food\FoodController@show           | 
+| GET_HEAD  | food7                  | food.indexfood7     | App\Http\Controllers\Food\FoodController@indexfood7     | 
+| GET_HEAD  | foodCantA              | food.indexcantidadA | App\Http\Controllers\Food\FoodController@indexcantidadA | 
+| GET_HEAD  | foodCantD              | food.indexcantidadD | App\Http\Controllers\Food\FoodController@indexcantidadD | 
+| GET_HEAD  | foodFechaA             | food.indexfechaA    | App\Http\Controllers\Food\FoodController@indexfechaA    | 
+| GET_HEAD  | foodFechaD             | food.indexfechaD    | App\Http\Controllers\Food\FoodController@indexfechaD    | 
+| GET_HEAD  | water                   | water.index          | App\Http\Controllers\Water\WaterController@index          | 
+| POST      | water                   | water.store          | App\Http\Controllers\Water\WaterController@store          | 
+| PUT_PATCH | water/{water}            | water.update         | App\Http\Controllers\Water\WaterController@update         | 
+| DELETE    | water/{water}            | water.destroy        | App\Http\Controllers\Water\WaterController@destroy        | 
+| GET_HEAD  | water/{water}            | water.show           | App\Http\Controllers\Water\WaterController@show           | 
+| GET_HEAD  | water7                  | water.indexfood7     | App\Http\Controllers\Water\WaterController@indexfood7     | 
+| GET_HEAD  | waterCantA              | water.indexcantidadA | App\Http\Controllers\Water\WaterController@indexcantidadA | 
+| GET_HEAD  | waterCantD              | water.indexcantidadD | App\Http\Controllers\Water\WaterController@indexcantidadD | 
+| GET_HEAD  | waterFechaA             | water.indexfechaA    | App\Http\Controllers\Water\WaterController@indexfechaA    | 
+| GET_HEAD  | waterFechaD             | water.indexfechaD    | App\Http\Controllers\Water\WaterController@indexfechaD    | 
+| GET_HEAD  | routine                | routine.index       | App\Http\Controllers\Routine\RoutineController@index    | 
+| POST      | routine                | routine.store       | App\Http\Controllers\Routine\RoutineController@store    | 
+| GET_HEAD  | routine/{routine}      | routine.show        | App\Http\Controllers\Routine\RoutineController@show     | 
+| DELETE    | routine/{routine}      | routine.destroy     | App\Http\Controllers\Routine\RoutineController@destroy  | 
+| GET_HEAD  | waterRoutine           | waterRoutine.index       | App\Http\Controllers\WaterRoutine\WaterRoutineController@index    | 
+| POST      | waterRoutine           | waterRoutine.store       | App\Http\Controllers\WaterRoutine\WaterRoutineController@store    | 
+| GET_HEAD  | waterRoutine/{waterRoutine}      | waterRoutine.show        | App\Http\Controllers\WaterRoutine\WaterRoutineController@show     | 
+| DELETE    | waterRoutine/{waterRoutine}      | waterRoutine.destroy     | App\Http\Controllers\WaterRoutine\WaterRoutineController@destroy  | 
+| GET_HEAD  | audio                  | audio.index         | App\Http\Controllers\Audio\AudioController@index        | 
+| POST      | audio                  | audio.store         | App\Http\Controllers\Audio\AudioController@store        | 
+| PUT_PATCH | audio/{audio}          | audio.update        | App\Http\Controllers\Audio\AudioController@update       | 
+| GET_HEAD  | audio/{audio}          | audio.show          | App\Http\Controllers\Audio\AudioController@show         | 
+| DELETE    | audio/{audio}          | audio.destroy       | App\Http\Controllers\Audio\AudioController@destroy      |
 
 
 Para realizar migraciones y seeder (reiniciar DB):
