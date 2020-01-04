@@ -8,8 +8,8 @@ php artisan serve
 
 Lista de rutas utiles:
 
-| Method    |          URI           |        Name         | Action                                                  | Middleware |
-|-----------|------------------------|---------------------|---------------------------------------------------------|------------|
+| Metodo    |          URI           |        Nombre         | Controlador                                                  | 
+|-----------|------------------------|---------------------|---------------------------------------------------------|
 | GET_HEAD  | food                   | food.index          | App\Http\Controllers\Food\FoodController@index          | 
 | POST      | food                   | food.store          | App\Http\Controllers\Food\FoodController@store          | 
 | PUT_PATCH | food/{food}            | food.update         | App\Http\Controllers\Food\FoodController@update         | 
