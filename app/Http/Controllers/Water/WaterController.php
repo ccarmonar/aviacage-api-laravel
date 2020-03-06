@@ -21,14 +21,14 @@ class WaterController extends ApiController
     {
         $campos = $request->json()->all();
 
-        //PENDIENTE
-        /*Lamada a RabbitMQ
+        
+        //Lamada a RabbitMQ
         $client = new \GuzzleHttp\Client();
-        $url = "https://aviacage-rabbit.herokuapp.com/addcomida/";
-        $gramos = $campos['cantidad'];
-        $consulta = $url . $gramos;
+        $url = "https://aviacage-rabbit.herokuapp.com/addagua/";
+        $mls = $campos['cantidad'];
+        $consulta = $url . $mls;
         $request = $client->get($consulta);
-        */
+        
 
         $water = new Water();
         $water->cantidad = $campos['cantidad'];

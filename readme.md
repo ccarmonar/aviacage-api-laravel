@@ -1,12 +1,27 @@
-## Servidor de PHP para el proyecto AviaCage
-#### Laravel
+# Servidor de PHP para el proyecto AviaCage
+Este repisitorio contiene el Backend del proyecto AviaCage, desarrollado por Last Soar Team, para la XXVII edición de la Feria de Software de la UTSFM (o Feria de Software 2020).
+### Instalación Laravel
+Primero se deben instalar las depencencias, para eso debe instalar composer, y luego ejecutar en la carpeta principal:
+```bash
+composer install
+```
+
+Posteriormente se se debe ejecutar una key:
+
+```bash
+php artisan key:generate
+```
+
+### Ejecución
+
 Para ejecutar el server:
 
 ```bash
 php artisan serve
 ```
 
-Lista de rutas utiles:
+
+### Lista de rutas utiles:
 
 | Metodo    |          URI           |        Nombre         | Controlador                                                  | 
 |-----------|------------------------|---------------------|---------------------------------------------------------|
@@ -45,8 +60,15 @@ Lista de rutas utiles:
 | DELETE    | audio/{audio}          | audio.destroy       | App\Http\Controllers\Audio\AudioController@destroy      |
 
 
+### Migración, actualización de BD y otros comandos utiles
+El código ejecuta datos de prueba a través del Seeder que ofrece Laravel.
 Para realizar migraciones y seeder (reiniciar DB):
 
+```bash
+php artisan migrate:refresh --seed
+```
+
+Si solo deseea reiniciar la BD sin datos de prueba (vaciarla):
 ```bash
 php artisan migrate:refresh --seed
 ```
@@ -64,7 +86,7 @@ php artisan make:model Routine -m
 
 Base de datos hosteada en https://console.clever-cloud.com
 
-#### Task
+### Tasks
 Para ejecutar las tareas de forma automatica es necesario crear un cronjob. Esto es en Linux. En windows puede usarse Task Manager pero al menos a mi no me funciono xd.
 
 Para crear cronjob
@@ -92,7 +114,7 @@ php artisan schedule:run
 
 
 
-#### Git
+### Git
 
 Para guardar en git:
 1) primero actualizar
@@ -116,7 +138,7 @@ git push --set-upstream origin master --force
 git push heroku master
 ```
 
-#### Ejemplos de JSON's para testear:
+### Ejemplos de JSON's para testear:
 
 Ejemplo POST para ruta /food o ruta /water:
 ```
