@@ -26,6 +26,11 @@ class Kernel extends ConsoleKernel
     {
         
         $schedule->command('command:test')->everyMinute();
+       
+    }
+    protected function scheduleWater(Schedule $schedule)
+    {
+        
         $schedule->command('command:water')->everyMinute();
        
     }
