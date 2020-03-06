@@ -26,6 +26,7 @@ class Kernel extends ConsoleKernel
     {
         
         $schedule->command('command:test')->everyMinute();
+        $schedule->command('command:water')->everyMinute();
        
     }
 

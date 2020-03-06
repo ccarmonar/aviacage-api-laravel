@@ -22,7 +22,7 @@ class WaterController extends ApiController
         $campos = $request->json()->all();
 
         
-        //Lamada a RabbitMQ
+        // Lamada a RabbitMQ
         $client = new \GuzzleHttp\Client();
         $url = "https://aviacage-rabbit.herokuapp.com/addagua/";
         $mls = $campos['cantidad'];
