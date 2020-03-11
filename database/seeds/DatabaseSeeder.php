@@ -16,19 +16,19 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         Food::truncate();
-        $cantidadFood = 40;
+        $cantidadFood = 10;
         factory(Food::class, $cantidadFood)->create();
 
         Routine::truncate();
-        $cantidadRoutine = 5;
+        $cantidadRoutine = 1;
         factory(Routine::class, $cantidadRoutine)->create();
 
         Water::truncate();
-        $cantidadWater = 40;
+        $cantidadWater = 10;
         factory(Water::class, $cantidadWater)->create();
 
         WaterRoutine::truncate();
-        $cantidadWaterRoutine = 5;
+        $cantidadWaterRoutine = 1;
         factory(WaterRoutine::class, $cantidadWaterRoutine)->create();
 
 

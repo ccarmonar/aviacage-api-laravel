@@ -63,7 +63,7 @@ class ScheduleTest extends Command
                 $response = $request->getBody();
                 
 
-                $logmsg = "[".now('America/Rosario')."] - Lunes -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Lunes - Cantidad:".$gramos." gramos - Rutina FOOD Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -78,7 +78,7 @@ class ScheduleTest extends Command
                 $response = $request->getBody();
 
 
-                $logmsg = "[".now('America/Rosario')."] - Martes -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Martes - Cantidad:".$gramos." gramos - Rutina FOOD Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -95,7 +95,7 @@ class ScheduleTest extends Command
                 $response = $request->getBody();
 
 
-                $logmsg = "[".now('America/Rosario')."] - Miercoles -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Miercoles - Cantidad:".$gramos." gramos - Rutina FOOD Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -110,7 +110,7 @@ class ScheduleTest extends Command
                 $response = $request->getBody();
 
 
-                $logmsg = "[".now('America/Rosario')."] - Jueves -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Jueves - Cantidad:".$gramos." gramos - Rutina FOOD Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -125,7 +125,7 @@ class ScheduleTest extends Command
                 $response = $request->getBody();
 
 
-                $logmsg = "[".now('America/Rosario')."] - Viernes -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Viernes - Cantidad:".$gramos." gramos - Rutina FOOD Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -141,7 +141,7 @@ class ScheduleTest extends Command
                 $response = $request->getBody();
 
 
-                $logmsg = "[".now('America/Rosario')."] - Sabado -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Sabado - Cantidad:".$gramos." gramos - Rutina FOOD Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -155,7 +155,7 @@ class ScheduleTest extends Command
                 $request = $client->get($consulta);
                 $response = $request->getBody();
                 
-                $logmsg = "[".now('America/Rosario')."] - Domingo -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Domingo - Cantidad:".$gramos." gramos - Rutina FOOD Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"log",
+				"logmsg"
+			],
+			[
 				"li",
 				"lights"
 			],
@@ -104,14 +108,53 @@
 	"buffers":
 	[
 		{
-			"contents": "///\tTarea 4 - Grupo 03\n//\tEduardo Reyes 201473041-1\n//\tCristobal Carmona 201473082-9\n\n// Como compilar el linux sudo g++ -o 2019-t4-03 2019-t4-03.cpp -lGL -lglut -lGLU\n// ./2019-t4-03\n#include <iostream>\n#include <stdlib.h>\n#include <math.h>\n#include <GL/glut.h>\nusing namespace std;\n\n\n//Variables material\nGLfloat mat_specular[]=  {1.0, 1.0, 1.0, 1.0};\nGLfloat mat_diffuse[]=   {1.0, 1.0, 1.0, 1.0};\nGLfloat mat_ambient[]=   {1.0, 1.0, 1.0, 1.0};\nGLfloat mat_shininess=   {100.0};\n\n//Variables light1\nGLfloat light1_ambient[]= {0.0, 0.0, 0.0, 1.0};\nGLfloat light1_diffuse[]= {0.0, 1.0, 0.0, 1.0};\nGLfloat light1_specular[]={1.0, 1.0, 1.0, 1.0};\nGLfloat light1_position[]={-0.0, -5.0, -0.0, 0.0};\n\n//Variables light2\nGLfloat light2_ambient[]= {0.0, 0.0, 0.0, 1.0};\nGLfloat light2_diffuse[]= {1.0, 0.0, 0.0, 1.0};\nGLfloat light2_specular[]={1.0, 1.0, 1.0, 1.0};\nGLfloat light2_position[]={0.0, 1.0, 0.0, 0.0};\n\n//Cilindro\nvoid cylinder()\n{\n\tGLUquadricObj *quadratic;\n\tquadratic = gluNewQuadric();\n\tglTranslatef(3.0,0.0,0.0);\n\tglRotatef(-90.0f, 0.0f, 1.0f, 0.0f);\n\tgluCylinder(quadratic,1.2f,0.7f,3.0f,32,32); //BASE INFERIOR, BASE SUPERIOR, ALTURA\n}\n\n\nvoid lights()\n{\n\n\n\n\n\t//SET UP Light0\n\tglLightfv(GL_LIGHT0, GL_AMBIENT, light1_ambient);\n\tglLightfv(GL_LIGHT0, GL_DIFFUSE, light1_diffuse);\n\tglLightfv(GL_LIGHT0, GL_SPECULAR,light1_specular);\n\tglLightfv(GL_LIGHT0, GL_POSITION,light1_position);\n\n\t//SET UP Light1\n\tglLightfv(GL_LIGHT1, GL_AMBIENT, light2_ambient);\n\tglLightfv(GL_LIGHT1, GL_DIFFUSE, light2_diffuse);\n\tglLightfv(GL_LIGHT1, GL_SPECULAR,light2_specular);\n\tglLightfv(GL_LIGHT1, GL_POSITION,light2_position);\n\n\t//SET UP Material\n\tglMaterialfv(GL_FRONT,GL_SPECULAR,\tmat_specular);\n\tglMaterialfv(GL_FRONT,GL_AMBIENT,\tmat_ambient);\n\tglMaterialfv(GL_FRONT,GL_DIFFUSE,\tmat_diffuse);\n\tglMaterialf(GL_FRONT, GL_SHININESS,mat_shininess);\n\tglEnable(GL_SMOOTH);\t\t/*enable smooth shading */\n\tglEnable(GL_LIGHTING);\t\t/* enable lighting */\n\tglEnable(GL_DEPTH_TEST);\t/* enable z buffer */\n\n}\n\n\n\n\nvoid display(void)\n{\n\tglClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);\n\tglLoadIdentity();\n\tcylinder();\n\tlights();\n\tglutSwapBuffers();\n\tglFlush();\n}\n\nvoid keys(unsigned char key, int x, int y)\n{\t\n\tif(key ==  27) exit(0);\n\n\t//Controles Light 1\n\tif(key == '1') \tglEnable(GL_LIGHT1); //Apagar light0\n\tif(key == '0') \tglDisable(GL_LIGHT1); //Encender light0\n\tif(key == 'x') light2_position[0]-= 1.0;\n\tif(key == 'X') light2_position[0]+= 1.0;\n\tif(key == 'y') light2_position[1]-= 1.0;\n\tif(key == 'Y') light2_position[1]+= 1.0;\n\tif(key == 'z') light2_position[2]-= 1.0;\n\tif(key == 'Z') light2_position[2]+= 1.0;\n\t//cout << \"x=\" << light1_position[0] << \" y=\" << light1_position[1] << \" z=\" << light1_position[2] << endl;\n\n\n\t//Controles Light 2\n\tif(key == '3') \tglEnable(GL_LIGHT0); //Apagar light0\n\tif(key == '2') \tglDisable(GL_LIGHT0); //Encender light0\n\tif(key == 'a') light1_position[0]-= 1.0;\n\tif(key == 'A') light1_position[0]+= 1.0;\n\tif(key == 'b') light1_position[1]-= 1.0;\n\tif(key == 'B') light1_position[1]+= 1.0;\n\tif(key == 'c') light1_position[2]-= 1.0;\n\tif(key == 'C') light1_position[2]+= 1.0;\n\t//cout << \"x=\" << light1_position[0] << \" y=\" << light1_position[1] << \" z=\" << light1_position[2] << endl;\n\n\n\tdisplay();\n}\n\n\nvoid myReshape(int w, int h)\n{\tglViewport(0, 0, w, h);\n\tglMatrixMode(GL_PROJECTION);\n\tglLoadIdentity();\n\tif(w <= h)\n\t\tglOrtho(-4.0,4.0,-4.0*(GLfloat)h/(GLfloat)w,\n      \t\t\t+4.0*(GLfloat)h/(GLfloat)w,-10.0,10.0);\n\telse\n   \t\tglOrtho(-4.0*(GLfloat)w/(GLfloat)h,\n      \t\t\t+4.0*(GLfloat)w/(GLfloat)h,-4.0,4.0,-10.0,10.0);\n\tglMatrixMode(GL_MODELVIEW);\n\tdisplay();\n}\n\n\n\n\n\nvoid myinit(void)\n{ \t\n\tglClearColor(0.0004, 0.4, 0.41, 1.0);\n\tglColor3f(0.2, 0.2, 0.2);\n}\n\n\nvoid showText()\n{\n\tcout<<\" USO DE TECLAS\"<<endl;\n\tcout<<endl;\n\tcout<<\" Fuentes de Luz\"<<endl;\n\tcout<<endl;\n\tcout<<\" 0: Apagar Fuente de Luz 0 (roja)\"<<endl;\n\tcout<<\" 1: Encender Fuente de Luz 0 (roja)\"<<endl;\n\tcout<<\" 2: Apagar Fuente de Luz 1 (verde)\"<<endl;\n\tcout<<\" 3: Encender Fuente de Luz 1 (verde)\"<<endl;\n\tcout<<endl;\n\tcout<<\" Movimientos de las Fuentes de Luz\"<<endl;\n\tcout<<\" x: Mover Luz 0 -x y X: Mover Luz 0 +x\"<<endl;\n\tcout<<\" y: Mover Luz 0 -y y Y: Mover Luz 0 +y\"<<endl;\n\tcout<<\" z: Mover Luz 0 -z y Z: Mover Luz 0 +z\"<<endl;\n\tcout<<endl;\n\tcout<<\" a: Mover Luz 1 -x y A: Mover Luz 1 +x\"<<endl;\n\tcout<<\" b: Mover Luz 1 -y y B: Mover Luz 1 +y\"<<endl;\n\tcout<<\" c: Mover Luz 1 -z y C: Mover Luz 1 +z\"<<endl;\n\tcout<<endl;\n\tcout<<\" ESC = Quit\"<<endl;\n}\n\nint main(int argc, char **argv)\n{\t\n\tshowText();\t\n\tglutInit(&argc, argv);\n\tglutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);\n\tglutInitWindowSize(500, 500);\n\tglutCreateWindow(\"GRUPO 03 - T4\");\n\tmyinit();\n\tglutReshapeFunc(myReshape);\n\tglutDisplayFunc(display);\n\tglutKeyboardFunc(keys);\n\tglutMainLoop();\n\treturn 0;\n}\n",
-			"file": "/home/c161905/Documentos/Computacion Grafica/Tarea4/test4v3.cpp",
-			"file_size": 4763,
-			"file_write_time": 132267839903865489,
+			"file": "app/Console/Commands/ScheduleTest.php",
 			"settings":
 			{
-				"buffer_size": 4763,
+				"buffer_size": 5198,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Console/Commands/ScheduleWater.php",
+			"settings":
+			{
+				"buffer_size": 5038,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Task_Routines_Water_Historial.txt",
+			"settings":
+			{
+				"buffer_size": 138,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Task_Routine_Food_Historial.txt",
+			"settings":
+			{
+				"buffer_size": 213,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Console/Kernel.php",
+			"settings":
+			{
+				"buffer_size": 928,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/console.php",
+			"settings":
+			{
+				"buffer_size": 553,
 				"line_ending": "Unix"
 			}
 		}
@@ -155,6 +198,7 @@
 		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel",
 		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/app",
 		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/app/Console",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/app/Console/Commands",
 		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/app/Http",
 		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/database",
 		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/database/factories",
@@ -164,6 +208,12 @@
 	],
 	"file_history":
 	[
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/Task_Routines_Water_Historial.txt",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/Task_Routine_Food_Historial.txt",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/log.txt",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/app/Console/Commands/log.txt",
+		"/home/c161905/Documentos/Feria de Software/aviacage-api-laravel/routes/console.php",
+		"/home/c161905/Documentos/Computacion Grafica/Tarea4/test4v3.cpp",
 		"/home/c161905/Documentos/Computacion Grafica/test/test3.cpp",
 		"/home/c161905/Documentos/Computacion Grafica/Tarea4/test4v2.cpp",
 		"/home/c161905/Documentos/Computacion Grafica/Tarea4/sphere.cpp",
@@ -254,6 +304,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ALIMENTO",
+			"();\n",
 			"5f"
 		],
 		"highlight": true,
@@ -272,36 +324,225 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/c161905/Documentos/Computacion Grafica/Tarea4/test4v3.cpp",
+					"file": "app/Console/Commands/ScheduleTest.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4763,
+						"buffer_size": 5198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								146,
-								146
+								2105,
+								2105
+							],
+							[
+								2659,
+								2659
+							],
+							[
+								3205,
+								3205
+							],
+							[
+								3752,
+								3752
+							],
+							[
+								4283,
+								4283
+							],
+							[
+								4830,
+								4830
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2209.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Console/Commands/ScheduleWater.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1560,
+								1560
+							],
+							[
+								2079,
+								2079
+							],
+							[
+								2605,
+								2605
+							],
+							[
+								3125,
+								3125
+							],
+							[
+								3646,
+								3646
+							],
+							[
+								4168,
+								4168
+							],
+							[
+								4691,
+								4691
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2137.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Task_Routines_Water_Historial.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Task_Routine_Food_Historial.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Console/Kernel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "routes/console.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -384,7 +625,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 382.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

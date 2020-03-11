@@ -1,2 +1,5 @@
-[2020-03-11 16:46:08] - Miercoles -666 mls - Rutina WATER Ejecutada 
-[2020-03-11 16:48:07] - Miercoles -488 mls - Rutina WATER Ejecutada 
+[2020-03-11 17:44:15] - Miercoles - Cantidad:44 mls - Rutina WATER Ejecutada 
+[2020-03-11 17:44:15] - Miercoles - Cantidad:44 mls - Rutina WATER Ejecutada 
+[2020-03-11 17:45:08] - Miercoles - Cantidad:45 mls - Rutina WATER Ejecutada 
+[2020-03-11 17:45:08] - Miercoles - Cantidad:50 mls - Rutina WATER Ejecutada 
+[2020-03-11 17:52:06] - Miercoles - Cantidad:52 mls - Rutina WATER Ejecutada 

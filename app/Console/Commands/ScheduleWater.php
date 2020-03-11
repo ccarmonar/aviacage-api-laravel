@@ -61,7 +61,7 @@ class ScheduleWater extends Command
                 $response = $request->getBody();
 
 
-                $logmsg = "[".now('America/Rosario')."] - Lunes -".$mls." mls - Rutina WATER Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Lunes - Cantidad:".$mls." mls - Rutina WATER Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -76,7 +76,7 @@ class ScheduleWater extends Command
                 $response = $request->getBody();
 
 
-                $logmsg = "[".now('America/Rosario')."] - Martes -".$mls." mls - Rutina WATER Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Martes - Cantidad:".$mls." mls - Rutina WATER Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -92,7 +92,7 @@ class ScheduleWater extends Command
                 $response = $request->getBody();
 
 
-                $logmsg = "[".now('America/Rosario')."] - Miercoles -".$mls." mls - Rutina WATER Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Miercoles - Cantidad:".$mls." mls - Rutina WATER Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -108,7 +108,7 @@ class ScheduleWater extends Command
 
 
 
-                $logmsg = "[".now('America/Rosario')."] - Jueves -".$mls." mls - Rutina WATER Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Jueves - Cantidad:".$mls." mls - Rutina WATER Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -124,7 +124,7 @@ class ScheduleWater extends Command
 
 
 
-                $logmsg = "[".now('America/Rosario')."] - Viernes -".$mls." mls - Rutina WATER Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Viernes - Cantidad:".$mls." mls - Rutina WATER Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -142,7 +142,7 @@ class ScheduleWater extends Command
 
 
 
-                $logmsg = "[".now('America/Rosario')."] - Sabado -".$mls." mls - Rutina WATER Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Sabado - Cantidad:".$mls." mls - Rutina WATER Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
@@ -159,7 +159,7 @@ class ScheduleWater extends Command
 
 
 
-                $logmsg = "[".now('America/Rosario')."] - Domingo -".$mls." mls - Rutina WATER Ejecutada \n";
+                $logmsg = "[".now('America/Rosario')."] - Domingo - Cantidad:".$mls." mls - Rutina WATER Ejecutada \n";
                 fwrite($file, $logmsg);
                 echo $logmsg;
 
