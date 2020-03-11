@@ -10,6 +10,8 @@ require 'vendor/autoload.php';
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 
+
+
 class ScheduleTest extends Command
 {
     /**
@@ -50,6 +52,7 @@ class ScheduleTest extends Command
 
 
         $url = "https://aviacage-rabbit.herokuapp.com/addcomida/";
+        $file = fopen('Task_Routine_Food_Historial.txt','a');
 
         foreach ($rutinas as $rutina) {
             if ($hora === $rutina->hora && $rutina->lunes == 1 && $dia == 1){
@@ -58,6 +61,13 @@ class ScheduleTest extends Command
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+                
+
+                $logmsg = "[".now('America/Rosario')."] - Lunes -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->martes == 1 && $dia == 2){
@@ -66,7 +76,15 @@ class ScheduleTest extends Command
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+                $logmsg = "[".now('America/Rosario')."] - Martes -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
                 echo $response;
+                
             }
             if ($hora === $rutina->hora && $rutina->miercoles == 1 && $dia == 3){
                 
@@ -75,6 +93,13 @@ class ScheduleTest extends Command
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+                $logmsg = "[".now('America/Rosario')."] - Miercoles -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+                
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->jueves == 1 && $dia == 4){
@@ -83,6 +108,13 @@ class ScheduleTest extends Command
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+                $logmsg = "[".now('America/Rosario')."] - Jueves -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+                
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->viernes == 1 && $dia == 5){
@@ -91,6 +123,13 @@ class ScheduleTest extends Command
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+                $logmsg = "[".now('America/Rosario')."] - Viernes -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->sabado == 1 && $dia == 6){
@@ -100,6 +139,13 @@ class ScheduleTest extends Command
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+                $logmsg = "[".now('America/Rosario')."] - Sabado -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->domingo == 1 && $dia == 0){
@@ -108,16 +154,19 @@ class ScheduleTest extends Command
                 $consulta = $url . $gramos;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+                
+                $logmsg = "[".now('America/Rosario')."] - Domingo -".$gramos." gramos - Rutina FOOD Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
                 echo $response;
             }
             else {
-                echo "\n";
-                echo $hora." ".$dia;
-                echo "\n";
+                $logmsg = "[".now('America/Rosario')."] - Rutina FOOD NO Ejecutada \n";
+                echo $logmsg;
             }
-
-
         }
+        fclose($file);
 
         
 

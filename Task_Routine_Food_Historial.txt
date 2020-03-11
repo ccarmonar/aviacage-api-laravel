@@ -1,0 +1,3 @@
+[2020-03-11 16:46:05] - Miercoles -666 gramos - Rutina FOOD Ejecutada 
+[2020-03-11 16:46:05] - Miercoles -333 gramos - Rutina FOOD Ejecutada 
+[2020-03-11 16:50:05] - Miercoles -555 gramos - Rutina FOOD Ejecutada 

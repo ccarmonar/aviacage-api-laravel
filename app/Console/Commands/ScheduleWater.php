@@ -50,6 +50,7 @@ class ScheduleWater extends Command
 
 
         $url = "https://aviacage-rabbit.herokuapp.com/addagua/";
+        $file = fopen('Task_Routines_Water_Historial.txt','a');
 
         foreach ($rutinas as $rutina) {
             if ($hora === $rutina->hora && $rutina->lunes == 1 && $dia == 1){
@@ -58,6 +59,13 @@ class ScheduleWater extends Command
                 $consulta = $url . $mls;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+                $logmsg = "[".now('America/Rosario')."] - Lunes -".$mls." mls - Rutina WATER Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->martes == 1 && $dia == 2){
@@ -66,6 +74,13 @@ class ScheduleWater extends Command
                 $consulta = $url . $mls;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+                $logmsg = "[".now('America/Rosario')."] - Martes -".$mls." mls - Rutina WATER Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->miercoles == 1 && $dia == 3){
@@ -75,6 +90,13 @@ class ScheduleWater extends Command
                 $consulta = $url . $mls;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+                $logmsg = "[".now('America/Rosario')."] - Miercoles -".$mls." mls - Rutina WATER Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->jueves == 1 && $dia == 4){
@@ -83,6 +105,14 @@ class ScheduleWater extends Command
                 $consulta = $url . $mls;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+
+                $logmsg = "[".now('America/Rosario')."] - Jueves -".$mls." mls - Rutina WATER Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->viernes == 1 && $dia == 5){
@@ -91,6 +121,15 @@ class ScheduleWater extends Command
                 $consulta = $url . $mls;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+
+                $logmsg = "[".now('America/Rosario')."] - Viernes -".$mls." mls - Rutina WATER Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
+
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->sabado == 1 && $dia == 6){
@@ -100,6 +139,15 @@ class ScheduleWater extends Command
                 $consulta = $url . $mls;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+
+                $logmsg = "[".now('America/Rosario')."] - Sabado -".$mls." mls - Rutina WATER Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
+
                 echo $response;
             }
             if ($hora === $rutina->hora && $rutina->domingo == 1 && $dia == 0){
@@ -108,12 +156,22 @@ class ScheduleWater extends Command
                 $consulta = $url . $mls;
                 $request = $client->get($consulta);
                 $response = $request->getBody();
+
+
+
+                $logmsg = "[".now('America/Rosario')."] - Domingo -".$mls." mls - Rutina WATER Ejecutada \n";
+                fwrite($file, $logmsg);
+                echo $logmsg;
+
+
+
                 echo $response;
             }
             else {
-                echo "\n";
-                echo $hora." ".$dia;
-                echo "\n";
+
+                $logmsg = "[".now('America/Rosario')."] - Rutina WATER NO Ejecutada \n";
+                echo $logmsg;
+
             }
 
 
