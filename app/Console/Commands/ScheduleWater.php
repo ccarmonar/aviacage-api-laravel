@@ -10,7 +10,7 @@ require 'vendor/autoload.php';
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 
-class ScheduleTest extends Command
+class ScheduleWater extends Command
 {
     /**
      * The name and signature of the console command.
