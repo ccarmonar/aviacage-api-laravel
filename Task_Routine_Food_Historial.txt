@@ -1,3 +1,7 @@
 [2020-03-11 17:44:12] - Miercoles - Cantidad:44 gramos - Rutina FOOD Ejecutada 
 [2020-03-11 17:45:05] - Miercoles - Cantidad:45 gramos - Rutina FOOD Ejecutada 
 [2020-03-11 17:50:05] - Miercoles - Cantidad:50 gramos - Rutina FOOD Ejecutada 
+[2020-03-13 11:30:12] - Viernes - Cantidad:200 gramos - Rutina FOOD Ejecutada 
+[2020-03-13 11:32:04] - Viernes - Cantidad:200 gramos - Rutina FOOD Ejecutada 
+[2020-03-13 13:39:33] - Viernes - Cantidad:200 gramos - Rutina FOOD Ejecutada 
+[2020-03-13 13:41:30] - Viernes - Cantidad:200 gramos - Rutina FOOD Ejecutada 
